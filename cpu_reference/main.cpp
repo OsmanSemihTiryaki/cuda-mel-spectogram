@@ -7,7 +7,6 @@
 // Usage:
 //   ./cpu_reference audio.bin hann.bin filterbank.bin output.bin [--runs N]
 //
-// All input/output files are raw little-endian float32, no header.
 
 #include "mel_pipeline.h"
 

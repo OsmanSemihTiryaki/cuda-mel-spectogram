@@ -1,0 +1,20 @@
+# Compiled binaries
+cpu_reference/cpu_reference
+cuda/mel_cuda
+*.o
+
+# Generated data (reproduce with the scripts)
+*.bin
+*.csv
+cuda/sweep_data/
+
+# Download bundles / archives
+*.zip
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Editor / OS cruft
+.DS_Store
+*.swp
